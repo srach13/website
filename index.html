@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  
+   <head>
+
+        <!-- Standardize scaling across all browsers and devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Link to the CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+       
+        <!-- Title of webpage -->
+       <title>Sameera Rachakonda</title>
+
+   </head>
+  
+   <!-- All visible content on the page -->
+   <body>
+
+        <!-- Header section -->
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                
+                <!-- Navigation menu-->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">ABOUT ME</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <!-- Home page text-->
+            <div class="text-box">
+                <h1>Sameera Rachakonda Personal Blog</h1>
+                <p>
+                   Welcome to my travel and wellness blog! 
+                </p>
+            </div>
+
+        </section>
+
+        <!-- JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+   </body>
+</html>
