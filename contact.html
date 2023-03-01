@@ -24,7 +24,7 @@
    <body>
 
         <!-- Header section -->
-        <section class="header">
+        <section class="sub-header">
             <nav>
                 <a href="index.html"><img src="images/logo.png"></a>
                 
@@ -41,70 +41,53 @@
                 <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
 
-            <!-- Home page text-->
-            <div class="text-box">
-                <h1>Sameera Rachakonda Personal Blog</h1>
-                <p>
-                   Welcome to my travel and wellness blog! 
-                </p>
-            </div>
+            <h1>Contact Me</h1>
 
         </section>
 
-        <!-- Blog section-->
-        <section class="blog">
-            <h1>Blog</h1>
-            <p>This is my travel blog</p>
+        <!-- Contact me content-->
+        <section class="location">
 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195600.53373398402!2d-75.25811157761919!3d40.002676681038004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1677684768978!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section class="contact-me">
             <div class="row">
-                <div class="blog-col">
-                    <h3>Paris</h3>
-                    <p>Details from my Paris trip</p>
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Philadelphia, PA</h5>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+1 215-767-6549</h5>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>sameerarachakonda@gmail.com</h5>
+                        </span>
+                    </div>
                 </div>
-                <div class="blog-col">
-                    <h3>Costa Rica</h3>
-                    <p>Details from my Costa Rica trip</p>
-                </div>
-                <div class="blog-col">
-                    <h3>Thailand</h3>
-                    <p>Details from my Thailand trip</p>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>
-
-        <!-- About section-->
-        <section class="About">
-            <h1>About</h1>
-            <p>Hi! Thanks for checking out my website. My name is Sameera Rachakonda.</p>
-            
-            <div class="row">
-                <div class="about-col">
-                    <img src="images/me.png">
-                    <div class="layer">
-                        <h3>ABOUT ME</h3>
-                    </div>
-                </div>
-                <div class="about-col">
-                    <img src="images/me.png">
-                    <div class="layer">
-                        <h3>MY TRAVEL JOURNEY</h3>
-                    </div>
-                </div> 
-                <div class="about-col">
-                    <img src="images/me.png">
-                    <div class="layer">
-                        <h3>MY WELLNESS JOURNEY</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact section-->
-        <section class="contact">
-            <h1>Contact</h1>
-            <a href="" class="hero-btn">CONTACT ME</a>
-        </section>
-
+        
         <!-- Footer-->
         <section class="footer">
             <h4>Socials</h4>
