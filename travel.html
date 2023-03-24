@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  
+   <head>
+
+        <!-- Standardize scaling across all browsers and devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Link to the CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Link to Google Fonts (Cormorant Garamond family)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+                
+        <!-- Title of webpage -->
+       <title>Sameera Rachakonda</title>
+
+   </head>
+  
+   <!-- All visible content on the page -->
+   <body>
+
+        <!-- Header section -->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html" class="primary-btn">SAMEERA RACHAKONDA</a>          
+                
+                <!-- Navigation menu-->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="travel.html">TRAVEL</a></li>
+                        <li><a href='writing.html'>WRITING</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>TRAVEL</h1>
+
+        </section>
+
+        <!-- Travel content-->
+        <div class="container">
+            <div class="photo-gallery">
+                <div class="column">
+                    <div class="photo">
+                       <img src="images/eiffel.jpg" alt="">
+                    </div>
+                    <div class="photo">
+                       <img src="images/versailles.jpg" alt="">
+                    </div>
+                    <div class="photo">
+                       <img src="images/garden.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="photo">
+                       <img src="images/angelina.jpg" alt="">
+                    </div>
+                    <div class="photo">
+                       <img src="images/catacombs.jpg" alt="">
+                    </div>
+                    <div class="photo">
+                       <img src="images/moulin.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="photo">
+                       <img src="images/shakespeare.jpg" alt="">
+                    </div>
+                    <div class="photo">
+                       <img src="images/statue.jpg" alt="">
+                    </div>
+                    <div class="photo">
+                       <img src="images/olympics.jpg" alt="">
+                    </div>
+                  </div>           
+          </div>
+
+          
+
+        <!-- JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+   </body>
+</html>
