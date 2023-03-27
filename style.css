@@ -137,13 +137,13 @@ h1 {
 
 .photo-gallery {
     display: flex;
-    gap: 20px;
+    gap: 30px;
   }
 
 .column {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
 
 .photo img {
@@ -152,6 +152,12 @@ h1 {
     height: 100%;
     object-fit: cover;
   }
+
+.photo p {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+}
 
 @media(max-width: 768px){
     .photo-gallery {
@@ -402,4 +408,5 @@ h1 {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
 
