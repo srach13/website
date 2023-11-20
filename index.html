@@ -1,63 +1,59 @@
 <!DOCTYPE html>
 <html>
-  
    <head>
-
-        <!-- Standardize scaling across all browsers and devices -->
+        <!--standardize scaling across all browsers and devices-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Link to the CSS stylesheet -->
+        <!--link to the CSS stylesheet-->
         <link rel="stylesheet" href="style.css">
 
-        <!-- Link to Google Fonts (Cormorant Garamond family)-->
+        <!--link to google fonts-->
+        <!--TO DO: UPDATE FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
                 
-        <!-- Title of webpage -->
+        <!--title of webpage-->
        <title>Sameera Rachakonda</title>
 
    </head>
   
-   <!-- All visible content on the page -->
-   <body>
-
-        <!-- Header section -->
-        <section class="header">
-            <nav>
-                <a href="index.html" class="primary-btn">SAMEERA RACHAKONDA</a>          
-                                
-                <!-- Navigation menu-->
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
+   <!--all visible content on the page-->
+   <body class="home">
+        <!--navigation bar-->
+            <nav>                
+                <div class="nav-bar">
                     <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="travel.html">TRAVEL</a></li>
-                        <li><a href='writing.html'>WRITING</a></li>
                         <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="">RESUME</a></li>
+                        <li><a href='writing.html'>WRITING</a></li>
+                        <li><a href="index.html">HOME</a></li>
                     </ul>
                 </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
 
-            <!-- Home page text-->
+        <!--about me-->
+        <section class="body">
             <div class="text-box">
                 <h1>Sameera Rachakonda</h1>
+                <h2>Hello! Welcome to my corner of the internet (:</h2>
+                <p>My name is Sameera Rachakonda and I am a 22 year old writer, artist, and software engineer based in Philadelphia, PA. 
+                    In all of my pursuits, whether it's writing, coding, or something else entirely, I aim to use my knowledge to create and inspire positive change in the world. 
+                    I am endlessly fascinated by how art and computer science can be used to solve some of the most pressing social, economic, and political hardships in the world today. 
+                    We are living in an unprecendented time and I am determined and curious to use my privelege and knowledge to make a change.
+                    I graduated from Temple University with my Bachelor of Science in Computer Science. 
+                    In college and since graduating, I've worked on projects that focus on using artificial intelligence, machine learning, and data science for good.
+                    Additionally, since I was little, I've always had a passion for writing and throughout the years, I've written a collection of poetry, prose, short stories, creative nonfiction, and songs.
+                    Here you can find samples of writing I have had published along with personal pieces I've written on my blog hosted by Substack.
+                    Thank you for taking the time to check out my work. If you have any questions or just want to say hi, please contact me! 
+                </p>
             </div>
 
         </section>
-
-        <!-- JavaScript for Toggle Menu-->
-        <script>
-            var navLinks = document.getElementById("navLinks");
-            function showMenu() {
-                navLinks.style.right = "0";
-            }
-            function hideMenu() {
-                navLinks.style.right = "-200px";
-            }
-        </script>
+        
+        <section class="footer">
+            <p>instagram</p>
+            <p>twitter</p>
+        </section>
         
    </body>
 </html>
